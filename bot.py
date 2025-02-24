@@ -8,8 +8,8 @@ ACCOUNT = "NAF"
 SYMBOL = "LOAN"
 API_URL = "https://huqt-oracle-exchange.fly.dev"
 
-BUY_PRICE = 99  # 0.98 USD in cents
-SELL_PRICE = 100  # 1.02 USD in cents
+BUY_PRICE = 98  # 0.98 USD in cents
+SELL_PRICE = 99  # 1.02 USD in cents
 ORDER_SIZE = 10000  # 75,000 shares
 ORDER_THRESHOLD = 5000  # Minimum order amount before placing new ones
 
