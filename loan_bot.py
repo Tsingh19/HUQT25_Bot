@@ -4,7 +4,7 @@ import time
 import requests
 
 # API Credentials
-API_KEY = "d5767133-59df-4030-b6fb-4b1ae6eb97c3"
+API_KEY = "8f19a7ab-d4f9-4d25-af66-ed2f0cbd9d28"
 ACCOUNT_ID = "NAF"
 WS_URL = "wss://huqt-oracle-exchange.fly.dev"
 CANCEL_API_URL = "https://huqt-oracle-exchange.fly.dev/exchanges/cancel_order"
@@ -218,7 +218,7 @@ import requests
 import random
 
 # Replace with your actual API key and account name
-API_KEY = "d5767133-59df-4030-b6fb-4b1ae6eb97c3"
+API_KEY = "8f19a7ab-d4f9-4d25-af66-ed2f0cbd9d28"
 ACCOUNT_ID = "NAF"
 
 # Trading Parameters
@@ -232,7 +232,7 @@ ORDER_SIZE = 100000  # Default order size
 DEFAULT_BID_PRICE = 99  # Default bid price if no bids are present
 DEFAULT_ASK_PRICE = 105  # Default ask price if no asks are present
 collaboration_deviate_rate = 0
-defection_deviate_rate = 0.01
+defection_deviate_rate = 0.1
 
 
 # Market state flags
