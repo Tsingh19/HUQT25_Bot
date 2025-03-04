@@ -328,9 +328,9 @@ def market_maker(asset):
             my_best_ask = curr_market_sell_price
         
         if my_best_bid <= DEFAULT_BID_PRICE:
-            my_best_bid += 1
+            my_best_bid = DEFAULT_BID_PRICE + 1
         if my_best_ask >= DEFAULT_ASK_PRICE:
-            my_best_ask -= 1
+            my_best_ask = DEFAULT_ASK_PRICE - 1
             
             
         print(f"[TRADING] Collaboration for Buying: {buy_collaboration}, Collaboration for Selling: {sell_collaboration}")
