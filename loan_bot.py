@@ -229,8 +229,8 @@ SELL_OPEN_ORDERS_THRESHOLD = 100000  # Maximum allowed sell open orders
 BUY_REENTRY_THRESHOLD = 100000  # Threshold at which we can start buying again after stopping
 SELL_REENTRY_THRESHOLD = 100000  # Threshold at which we can start selling again after stopping
 ORDER_SIZE = 100000  # Default order size
-DEFAULT_BID_PRICE = 97  # Default bid price if no bids are present
-DEFAULT_ASK_PRICE = 103  # Default ask price if no asks are present
+DEFAULT_BID_PRICE = 99  # Default bid price if no bids are present
+DEFAULT_ASK_PRICE = 105  # Default ask price if no asks are present
 collaboration_deviate_rate = 0
 defection_deviate_rate = 0.01
 
